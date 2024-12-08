@@ -8,6 +8,12 @@
             "ShvedXd\\TelegramApiTest\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "ShvedXd\\Docker\\": "docker/"
+
+        }
+    },
     "authors": [
         {
             "name": "Ya"
