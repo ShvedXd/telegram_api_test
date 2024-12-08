@@ -16,6 +16,6 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^8.2",
-        "guzzlehttp/guzzle": "8.0.x-dev"
+        "guzzlehttp/guzzle": "^7.2"
     }
 }
