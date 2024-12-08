@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  php82:
+    build: ./docker/images/php82/
+    container_name: php82-telegram
+    volumes:
+      - ./docker/images/php82/php.ini:/usr/local/etc/php/conf.d/php82.ini
+      - ./:/var/www/telegram/
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

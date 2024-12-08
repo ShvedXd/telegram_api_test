@@ -1,0 +1,21 @@
+{
+    "name": "shvedxd/telegram_api_test",
+    "description": "Test",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "ShvedXd\\TelegramApiTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    }
+}
