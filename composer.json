@@ -17,5 +17,11 @@
     "require": {
         "php": "^8.2",
         "guzzlehttp/guzzle": "^7.2"
+    },
+    "archive": {
+        "exclude": [
+            "/docker",
+            "docker-compose.yml"
+        ]
     }
 }
