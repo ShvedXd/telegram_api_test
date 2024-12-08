@@ -20,7 +20,7 @@
     },
     "archive": {
         "exclude": [
-            "/docker",
+            "./docker",
             "docker-compose.yml"
         ]
     }
