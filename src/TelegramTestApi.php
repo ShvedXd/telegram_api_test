@@ -15,10 +15,10 @@ final class TelegramTestApi
         ]);
     }
 
-    public function sendMessage(string $chatId, string $message): void
+    public function sendMessage(string $chatId, string $message, string $parse_mode = 'HTML'): void
     {
         $this->client->post('sendMessage', [
-            'query' => ['chat_id' => $chatId],
+            'query' => ['chat_id' => $chatId, 'parse_mode' => $parse_mode],
             'json' => ['text' => $message]
         ]);
     }
